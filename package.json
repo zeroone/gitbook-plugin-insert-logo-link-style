@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-insert-logo-link-style",
   "description": "GitBook Plugin to insert logo image with link into the navigation above search input.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "gitbook",
     "plugin",

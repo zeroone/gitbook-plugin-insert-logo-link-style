@@ -11,7 +11,7 @@ The following plugin inserts a logo into the navigation bar (above the summary a
 
 ```json
 {
-    "plugins": ["gitbook-plugin-insert-logo-link-style", "another plugin 1", "another plugin 2"]
+    "plugins": ["insert-logo-link-style"]
 }
 ```
 
@@ -19,9 +19,9 @@ You will also need to provide url for the logo. The url can be local file, a rem
 
 ```json
 {
-    "plugins": ["insert-logo", "another plugin 1", "another plugin 2"],
+    "plugins": ["insert-logo-link-style"],
     "pluginsConfig": {
-        "insert-logo": {
+        "insert-logo-link-style": {
             "src": "http://www.example.com/logo.png",
             "style": "background: none;",
             "link": "http://www.example.com"
