@@ -1,0 +1,44 @@
+{
+  "name": "gitbook-plugin-insert-logo-link-style",
+  "description": "GitBook Plugin to insert logo image with link into the navigation above search input.",
+  "version": "1.0.0",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "insert-logo",
+    "logo",
+    "github"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "zeroone",
+    "email": "zeroone@126.com"
+  },
+  "readme": "GitBook Plugin to insert logo image with link into the navigation above search input.",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "src": {
+        "type": "string",
+        "default": "http://www.example.com/logo.png",
+        "title": "Logo Image URL"
+      },
+      "style": {
+        "type": "string",
+        "default": "background: none;",
+        "title": "Custom CSS"
+      },
+      "link": {
+        "type": "string",
+        "default": "http://www.example.com",
+        "title": "Logo Link URL"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroone/gitbook-plugin-insert-logo-link-style"
+  }
+}
