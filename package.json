@@ -38,7 +38,7 @@
       "target": {
         "type": "string",
         "default": "",
-        "title": "Target for the link (_blank/'')"
+        "title": "Target for the link"
       }
     }
   },
