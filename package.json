@@ -34,6 +34,11 @@
         "type": "string",
         "default": "http://www.example.com",
         "title": "Logo Link URL"
+      },
+      "target": {
+        "type": "string",
+        "default": "",
+        "title": "Target for the link"
       }
     }
   },
