@@ -24,8 +24,11 @@ You will also need to provide url for the logo. The url can be local file, a rem
         "insert-logo-link-style": {
             "src": "http://www.example.com/logo.png",
             "style": "background: none;",
-            "link": "http://www.example.com"
+            "link": "http://www.example.com",
+            "target": "_blank"
         }
     }
 }
 ```
+
+The `target` parameter allows you to choose if the link on the logo opens in a new window or not _(possible values : ` ` or [one of the values allowed for <a> elements](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a#Attributs)_).
